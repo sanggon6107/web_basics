@@ -1,0 +1,59 @@
+html, body{
+	margin : 0;
+	padding : 0;
+}
+
+header{
+	width : 100%;
+	height : 60px;
+	font-size : 18px;
+	font-weight : bold;
+	line-height : 60px;
+	text-align : center;
+	background-color : rgba(0, 0, 40,0.9);
+	color : #fff;
+}
+
+.aside_1{
+	float : left;
+	border : solid 2px black;
+	height : 158px;
+	width : 19%;
+}
+.section_h3{ /*** child_1 ***/
+	margin : 0;
+	height : 50px;
+	border : solid 2px black;
+}
+.article_1{ /*** child_2 ***/
+	height : 50px;
+	border : solid 2px black;
+}
+.article_2{ /*** child_3 ***/
+	height : 50px;
+	border : solid 2px black;
+}
+
+section{ /*** parent ***/
+	position : relative;
+	float : left;
+	width : 60%;
+}
+
+.aside_2{
+	float : left;
+	border : solid 2px black;
+	height : 158px;
+	width : 19%;
+}
+
+
+footer{
+	clear : both;
+	width : 100%;
+	height :40px;
+	line-height : 40px;
+	text-align : right;
+	background-color : rgba(0, 0, 40,0.9);
+	color : #fff;
+}

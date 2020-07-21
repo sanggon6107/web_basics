@@ -1,0 +1,30 @@
+header h1{
+	height : 120px;
+	font-style : italic;
+	color : red;
+}
+
+#h1id{
+	width : 500px;
+	height : 120px;
+	background-color : yellow;
+}
+
+.class_1{
+	font-style : italic;
+	color : yellow;
+}
+.class_2{
+	width : 500px;
+	height : 120px;
+	background-color: red;
+}
+
+.class_3{
+	width : 120px;
+	height : 100px;
+	
+	font-size : 14px;
+	font-family : Arial, Times, sans-serif;
+	font-weight : bold;
+}

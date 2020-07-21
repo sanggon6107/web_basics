@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "keywords" content = "css, html">
+
+	<title>__title__</title>
+	<script>
+		var req = new XMLHttpRequest();
+		req.onreadystatechange = function a(){
+			console.log(this.readyState, this.status);
+
+		if(this.readyState == 4){
+			console.log(this.response);
+			var data = JSON.parse(this.response);
+			
+			for (var i in data){
+				var t = document.getElementById("template").cloneNode(true);
+
+				t.removeAttribute("id");
+				t.children[0].innerText = data[i].id;
+				t.children[1].innerText = data[i].msg;
+				document.body.appendChild(t);
+			}
+		
+	}
+
+		req.open("GET","./json_data.txt");
+		req.send();
+	</script>
+</head>
+
+<body>
+    <p id = "template">
+    <!-- t.child[0] = "character", t.child[1] = "word" -->
+    <span class = "character">s</span> : <span class = "word">m</span>
+    </p>
+
+    <footer>
+    	<p id = "footer_id">__footer__</p>
+    </footer>
+</body>
+
+</html>

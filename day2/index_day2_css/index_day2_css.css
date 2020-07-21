@@ -1,0 +1,16 @@
+header h1{
+	font-style : italic;
+	color : red;
+}
+
+#h1id{
+	background-color : yellow;
+}
+
+.class_1{
+	font-style : italic;
+	color : yellow;
+}
+.class_2{
+	background-color: red;
+}

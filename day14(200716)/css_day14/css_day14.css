@@ -1,0 +1,36 @@
+html, body{
+	padding : 0;
+	margin : 0;
+}
+.header_class{
+	width : 100%;
+	height : 130px;
+	text-align : center;
+	line-height :130px;
+	font-weight : bold;
+	color : #fff;
+	background-color : rgba(0, 0, 40, 0.9);
+}
+
+.section_h4_class{
+	width : 100%;
+	height : 250px;
+	text-align : center;
+}
+
+.section_text_class{
+	border : solid rgba(0, 0, 40, 0.9);
+	width : 100%;
+	height : 100px;
+	text-align : center;
+	line-height : 100px;
+}
+
+.footer_class{
+	background-color : rgba(0, 0, 40, 0.9);
+	color : #fff;
+	text-align : right;
+	width : 100%;
+	height : 50px;
+	line-height : 50px;
+}

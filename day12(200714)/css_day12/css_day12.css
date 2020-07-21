@@ -1,0 +1,28 @@
+html, body{
+	padding : 0;
+	margin : 0;
+}
+#header_ {
+	width : 100%;
+	height : 100px;
+	text-align : center;
+	line-height : 100px;
+	color : #fff;
+	background-color : rgba(0, 0, 40,0.9);
+}
+
+.innerText_class {
+	font-weigth : bold;
+	text-align : center;
+	weidth : 100%;
+	height : 70px;
+}
+
+#footer_{
+	width: 100%;
+	heigth : 50px;
+	text-align : right;
+	line-height : 50px;
+	color : #fff;
+	background-color : rgba(0, 0, 40, 0.9);
+}

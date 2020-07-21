@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "keywords" content = "css, html">
+	<meta name = "author" content = "___AUTHOR___">
+	<title>__title___index___</title>
+
+	<script src = "js_day14.js"></script>
+	<link rel = "stylesheet" href = "css_day14/css_day14.css">
+</head>
+
+<body>
+	<header class = "header_class">__header</header>
+
+	<section><h4 class = "sectdion_h4_class">__section__</h4></section>
+
+	<section class = "section_text_class">
+		<form method = "GET" action = "submit.html" id = "form_1">
+		text : <input type = "text" name = "input">  <input type = "submit">
+		</form>
+		<script>
+			var t = document.getElementById("form_1");
+			t.onsubmit = function a(){ 
+				console.log("from property");
+			}
+		</script>
+	</section>
+
+	<footer class = "footer_class"><h5>__footer</h5></footer>
+</body>
+</html>
